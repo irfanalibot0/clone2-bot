@@ -13,6 +13,8 @@ AUTHORISED_USERS = []
 INDEX_URL = ""
 IS_TEAM_DRIVE = True
 USE_SERVICE_ACCOUNTS = True
+#GDTOT
+CRYPT = ""
 # --------------------------------------
 
 # dont edit below this >
@@ -26,3 +28,4 @@ AUTHORISED_USERS = json.loads(os.environ.get('AUTHORISED_USERS', json.dumps(AUTH
 INDEX_URL = os.environ.get('INDEX_URL', INDEX_URL)
 IS_TEAM_DRIVE = stb(os.environ.get('IS_TEAM_DRIVE', str(IS_TEAM_DRIVE)))
 USE_SERVICE_ACCOUNTS = stb(os.environ.get('USE_SERVICE_ACCOUNTS', str(USE_SERVICE_ACCOUNTS)))
+CRYPT = stb(os.environ.get('CRYPT', str(CRYPT)))
