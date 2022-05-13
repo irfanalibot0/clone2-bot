@@ -29,7 +29,7 @@
     },
     "CRYPT": {
       "description": "GDTOT CRYPT.",
-      "value": "CRYPT",
+      "value": "",
       "required": false
     },
     "AUTHORISED_USERS" : {
