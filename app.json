@@ -27,6 +27,11 @@
       "value": "",
       "required": true
     },
+    "CRYPT": {
+      "description": "GDTOT CRYPT.",
+      "value": "CRYPT",
+      "required": false
+    },
     "AUTHORISED_USERS" : {
       "description": "List of user ids to allow bot access to. Note: Write within [] and seperate with ,",
       "value": "[]",
