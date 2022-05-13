@@ -3,8 +3,8 @@ import string
 from threading import Thread
 from telegram.ext import CommandHandler
 from telegram import InlineKeyboardMarkup, ParseMode, InlineKeyboardButton
-from bot.helper.mirror_utils.upload_utils.gdriveTools import GoogleDriveHelper
-from bot.helper.telegram_helper.message_utils import *
+from bot.gDrive import GoogleDriveHelper
+from bot.message_utils import *
 from bot.helper.telegram_helper.filters import CustomFilters
 from bot.helper.telegram_helper.bot_commands import BotCommands
 from bot.helper.mirror_utils.status_utils.clone_status import CloneStatus
